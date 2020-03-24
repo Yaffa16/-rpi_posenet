@@ -1,0 +1,243 @@
+<?xml version="1.0" ?>
+<mapping>
+	<map>
+		<framework name="MobilenetV1/BiasAdd_2" out_port_id="0"/>
+		<IR id="7" name="MobilenetV1/depthwise_1" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="MobilenetV1/BiasAdd_11" out_port_id="0"/>
+		<IR id="25" name="MobilenetV1/Conv2D_6" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="MobilenetV1/Relu6_9" out_port_id="0"/>
+		<IR id="20" name="MobilenetV1/Relu6_9" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="MobilenetV1/BiasAdd_25" out_port_id="0"/>
+		<IR id="53" name="MobilenetV1/Conv2D_13" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="MobilenetV1/Relu6_17" out_port_id="0"/>
+		<IR id="36" name="MobilenetV1/Relu6_17" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="MobilenetV1/Relu6_22" out_port_id="0"/>
+		<IR id="46" name="MobilenetV1/Relu6_22" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="MobilenetV1/BiasAdd_14" out_port_id="0"/>
+		<IR id="31" name="MobilenetV1/depthwise_7" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="MobilenetV1/BiasAdd_1" out_port_id="0"/>
+		<IR id="5" name="MobilenetV1/Conv2D_1" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="MobilenetV1/BiasAdd_13" out_port_id="0"/>
+		<IR id="29" name="MobilenetV1/Conv2D_7" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="MobilenetV1/Relu6_5" out_port_id="0"/>
+		<IR id="12" name="MobilenetV1/Relu6_5" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="MobilenetV1/BiasAdd_24" out_port_id="0"/>
+		<IR id="51" name="MobilenetV1/depthwise_12" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="MobilenetV1/BiasAdd_8" out_port_id="0"/>
+		<IR id="19" name="MobilenetV1/depthwise_4" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="MobilenetV1/BiasAdd" out_port_id="0"/>
+		<IR id="3" name="MobilenetV1/depthwise" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="MobilenetV1/BiasAdd_18" out_port_id="0"/>
+		<IR id="39" name="MobilenetV1/depthwise_9" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="MobilenetV1/Relu6_20" out_port_id="0"/>
+		<IR id="42" name="MobilenetV1/Relu6_20" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="MobilenetV1/Relu6_2" out_port_id="0"/>
+		<IR id="6" name="MobilenetV1/Relu6_2" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="displacement_bwd_2" out_port_id="0"/>
+		<IR id="55" name="Conv2D_3" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="MobilenetV1/Relu6" out_port_id="0"/>
+		<IR id="2" name="MobilenetV1/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="MobilenetV1/BiasAdd_19" out_port_id="0"/>
+		<IR id="41" name="MobilenetV1/Conv2D_10" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="MobilenetV1/Relu6_12" out_port_id="0"/>
+		<IR id="26" name="MobilenetV1/Relu6_12" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="MobilenetV1/BiasAdd_3" out_port_id="0"/>
+		<IR id="9" name="MobilenetV1/Conv2D_2" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="MobilenetV1/BiasAdd_16" out_port_id="0"/>
+		<IR id="35" name="MobilenetV1/depthwise_8" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="MobilenetV1/Relu6_8" out_port_id="0"/>
+		<IR id="18" name="MobilenetV1/Relu6_8" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="offset_2" out_port_id="0"/>
+		<IR id="59" name="Conv2D_1" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="MobilenetV1/Relu6_19" out_port_id="0"/>
+		<IR id="40" name="MobilenetV1/Relu6_19" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="MobilenetV1/Relu6_16" out_port_id="0"/>
+		<IR id="34" name="MobilenetV1/Relu6_16" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="MobilenetV1/BiasAdd_15" out_port_id="0"/>
+		<IR id="33" name="MobilenetV1/Conv2D_8" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="MobilenetV1/BiasAdd_6" out_port_id="0"/>
+		<IR id="15" name="MobilenetV1/depthwise_3" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="MobilenetV1/BiasAdd_22" out_port_id="0"/>
+		<IR id="47" name="MobilenetV1/depthwise_11" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="MobilenetV1/BiasAdd_17" out_port_id="0"/>
+		<IR id="37" name="MobilenetV1/Conv2D_9" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="MobilenetV1/Relu6_14" out_port_id="0"/>
+		<IR id="30" name="MobilenetV1/Relu6_14" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="MobilenetV1/Relu6_4" out_port_id="0"/>
+		<IR id="10" name="MobilenetV1/Relu6_4" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="MobilenetV1/BiasAdd_4" out_port_id="0"/>
+		<IR id="11" name="MobilenetV1/depthwise_2" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="heatmap" out_port_id="0"/>
+		<IR id="58" name="heatmap" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="MobilenetV1/Relu6_10" out_port_id="0"/>
+		<IR id="22" name="MobilenetV1/Relu6_10" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="MobilenetV1/add" out_port_id="0"/>
+		<IR id="1" name="MobilenetV1/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="MobilenetV1/Relu6_7" out_port_id="0"/>
+		<IR id="16" name="MobilenetV1/Relu6_7" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="displacement_fwd_2" out_port_id="0"/>
+		<IR id="56" name="Conv2D_2" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="MobilenetV1/BiasAdd_12" out_port_id="0"/>
+		<IR id="27" name="MobilenetV1/depthwise_6" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="MobilenetV1/Relu6_6" out_port_id="0"/>
+		<IR id="14" name="MobilenetV1/Relu6_6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="MobilenetV1/BiasAdd_7" out_port_id="0"/>
+		<IR id="17" name="MobilenetV1/Conv2D_4" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="MobilenetV1/Relu6_26" out_port_id="0"/>
+		<IR id="54" name="MobilenetV1/Relu6_26" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="MobilenetV1/Relu6_15" out_port_id="0"/>
+		<IR id="32" name="MobilenetV1/Relu6_15" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="MobilenetV1/Relu6_3" out_port_id="0"/>
+		<IR id="8" name="MobilenetV1/Relu6_3" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="MobilenetV1/BiasAdd_9" out_port_id="0"/>
+		<IR id="21" name="MobilenetV1/Conv2D_5" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="MobilenetV1/Relu6_18" out_port_id="0"/>
+		<IR id="38" name="MobilenetV1/Relu6_18" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="MobilenetV1/BiasAdd_5" out_port_id="0"/>
+		<IR id="13" name="MobilenetV1/Conv2D_3" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="heatmap_2" out_port_id="0"/>
+		<IR id="57" name="Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="MobilenetV1/BiasAdd_10" out_port_id="0"/>
+		<IR id="23" name="MobilenetV1/depthwise_5" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="MobilenetV1/Relu6_1" out_port_id="0"/>
+		<IR id="4" name="MobilenetV1/Relu6_1" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="MobilenetV1/Relu6_13" out_port_id="0"/>
+		<IR id="28" name="MobilenetV1/Relu6_13" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="MobilenetV1/Relu6_23" out_port_id="0"/>
+		<IR id="48" name="MobilenetV1/Relu6_23" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="MobilenetV1/Relu6_21" out_port_id="0"/>
+		<IR id="44" name="MobilenetV1/Relu6_21" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="MobilenetV1/Relu6_25" out_port_id="0"/>
+		<IR id="52" name="MobilenetV1/Relu6_25" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="MobilenetV1/BiasAdd_20" out_port_id="0"/>
+		<IR id="43" name="MobilenetV1/depthwise_10" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="MobilenetV1/BiasAdd_21" out_port_id="0"/>
+		<IR id="45" name="MobilenetV1/Conv2D_11" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="MobilenetV1/BiasAdd_23" out_port_id="0"/>
+		<IR id="49" name="MobilenetV1/Conv2D_12" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="MobilenetV1/Relu6_24" out_port_id="0"/>
+		<IR id="50" name="MobilenetV1/Relu6_24" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="MobilenetV1/Relu6_11" out_port_id="0"/>
+		<IR id="24" name="MobilenetV1/Relu6_11" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="image" out_port_id="0"/>
+		<IR id="0" name="image" out_port_id="0"/>
+	</map>
+</mapping>
