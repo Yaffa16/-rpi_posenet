@@ -1,11 +1,10 @@
 ## PoseNet Python
 
-This repository contains a pure Python implementation (multi-pose only) of the Google TensorFlow.js Posenet model. For a (slightly faster) PyTorch implementation that followed from this, see (https://github.com/rwightman/posenet-pytorch)
-
+This repository contains a pure Python implementation (multi-pose only) of the Google TensorFlow.js Posenet model. 
 
 ## running posenet in Python :
 
-Run python image_demo.py 
+Run python image_demo.py --model 101 --image_dir ./images --output_dir ./output
 
 ## Converting model under to Openvino : 
 python .\deployment_tools\model_optimizer\mo.py --input_model "Path To TFllite Model"\posenset2\_models\model-mobilenet_v1_101.pb --framework tf -o ~\posenet_v1_1_Posent2_model\ --input image --input_shape [1,257,257,3] --output "offset_2,displacement_fwd_2,displacement_bwd_2,heatmap" --data_type FP16 --generate_deprecated_IR_V7
